@@ -4,43 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> home</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
 </head>
 
 <body>
-    <header>
-        <h1>
-            <img src="./cinewave_logo.png" alt="">
-            CinéWave
-        </h1>
-        <nav>
-            <ul>
-                <li>Accueil</li>
-                <li>Nos films</li>
-                <li>Connexion</li>
-                <li>S'inscrire</li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <h1>
+                <a href="./index.html"><img src="./asset/cinewave_logo.png" alt="logo cinewave">
+                CinéWave
+            </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./all_films.html">Nos films</a></li>
+                    <li><a href="./log.html">Connexion</a></li>
+                    <li><a href="./register.html">S'inscrire</a></li>
+                </ul>
+            </nav>
+        </header>
     <main>
-        <section>
+        <section class="register-container">
             <h2>Inscription</h2>
-     <form>
-                <label for="firstName">Prénom:</label><br>
-                <input type="text" id="firstName" name="firstName" required><br>
+     <form action="./log.html" method="post">
+               
                 <label for="lastName">Nom:</label><br>
                 <input type="text" id="lastName" name="lastName" required><br>
+                <label for="firstName">Prénom:</label><br>
+                <input type="text" id="firstName" name="firstName" required><br>
                 <label for="email">Adresse e-mail:</label><br>
                 <input type="email" id="email" name="email" required><br>
                 <label for="password">Mot de passe:</label><br>
                 <input type="password" id="password" name="password" required><br>
-                <input type="submit" value="S'inscrire">
+                <input type="button" value="S'inscrire">
             </form>
         </section>
     </main>
 </body>
-<footer><p></p></footer>
+<footer>
+    <p> 
+        &copy; CinéWave- 2024
+    </p>
+</footer>
 <script></script>
 </html>

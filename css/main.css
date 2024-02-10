@@ -1,21 +1,34 @@
+@import url(./reset.css);
+
+/* Couleurs */
+:root {
+  --primary-color: #8b80f9;
+  --background-color: #f4f4f4;
+  --button-color: #8b80f9;
+  --button-hover-color: #8b80f9;
+  --text-color: #fff;
+}
+
+/* Header */
 header {
-  background-color: #8b80f9;
-  padding: 20px;
+  background-color: var(--primary-color);
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; 
+  width: 100%;
 }
 
-header h1 {
-  color: #fff;
+header h1 a {
+  color: var(--text-color);
   display: flex;
   align-items: center;
 }
 
-header h1 img {
-  height: 50px;
-  margin-right: 10px;
+header h1 a img {
+  height: 3.125rem;
+  margin-right: 0.625rem;
+  
 }
 
 header nav ul {
@@ -26,24 +39,145 @@ header nav ul {
 }
 
 header nav ul li {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 header nav a {
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
 }
-section {
+
+/* Home Container */
+.home-container {
+  background:url(../asset/image_bg.jpg) no-repeat center center / cover;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-desc{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.6); /* Fond blanc opaque */
+  padding: 20px;
+  max-width: 30%;
+  justify-content: center;  
+  vertical-align: middle; /* Ajout de cette ligne pour aligner verticalement */
+
+}
+
+
+/* Home Container Part 2 and register-container*/
+.register-container, .home-container-part2 {
+  background-color: var(--background-color);
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.register-container h2,
+.home-container-part2 h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.register-container form,
+.home-container-part2 form {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: baseline;
+  max-width: 50rem;
+  margin: 0 auto;
 }
 
-section img {
-  max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas de la section */
-  margin-right: 20px; /* Marge à droite de l'image pour créer de l'espace entre l'image et le texte */
+
+
+.register-container input,
+.home-container-part2 input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
 }
 
-section p {
-  flex: 1; /* Pour que le paragraphe occupe tout l'espace restant à droite de l'image */
+.home-container-part2 button {
+  background-color: var(--button-color);
+  color: var(--text-color);
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
 }
-  
+
+.home-container-part2 button:hover {
+  background-color: var(--button-hover-color);
+}
+
+/* Home Container Part 3 */
+.home-container-part3 {
+  background-color: #7a7373;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 4rem 0;
+  text-align: center;
+  border: 1px solid #000;  
+}
+
+/* Connexion */
+.register-container, .Connexion {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  max-width: 60rem;
+  width: 100%;
+  margin: 1.25rem auto;
+}
+
+.register-container h2,
+.Connexion h2 {
+  margin-bottom: 1.25rem;
+}
+
+.register-container label,
+.Connexion label {
+  display: block;
+}
+
+.Connexion input {
+  width: 100%;
+  padding: 1.5rem;
+  margin-bottom: 2.1875rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.register-container input {
+  width: 100%;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.register-container input[type="button"],
+.Connexion input[type="button"] {
+  background-color: var(--button-color);
+  color: var(--text-color);
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.register-container input[type="button"]:hover,
+.Connexion input[type="button"]:hover {
+  background-color: var(--button-hover-color);
+}
+footer{
+  text-align: center;
+}
