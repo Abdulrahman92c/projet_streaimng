@@ -1,3 +1,16 @@
-# PROJET CINE WAVE
-c'est un projet qui nous fait faire un un site de streaming fonctionnel
-[voici le rendu ](https://abdulrahman92c.github.io/projet_streaming/)
+#  Présentation Ciné Wave
+
+Voici un projet scolaire qui consiste à réaliser un site web proposant un système de streaming de films et de series de genre différent(horreur, action ...).
+Ce projet contient une page d'accueil, une page de connexion, d'inscription, ainsi que des pages pour afficher les films lorsque nous sommes "abonnés".
+
+# Interface graphique
+## Connexion
+![connexion](./asset/vue_interface.png)
+## Inscription
+![accueil](./asset/vue_inscription.png)
+# Rendu 
+
+[Cliquez pour avoir le rendu complet de ce projet](https://abdulrahman92c.github.io/projet_streaming/)
+# Auteur
+
+&copy; AbdulRahman Chahdi - 2024 - Bachelor CDA - ITIC Paris 
