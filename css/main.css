@@ -17,6 +17,8 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  box-shadow: 1rem 1rem 1rem 1rem rgba(62, 62, 62, 0.267);
+
 }
 
 header h1 a {
@@ -58,6 +60,8 @@ header nav a:hover{
   position: relative;
   width: 100%;
   height: 100vh;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.274);
+
 }
 
 .home-desc{
@@ -66,12 +70,12 @@ header nav a:hover{
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.668); 
-  padding: 2rem;
-  max-width: 40%;
+  padding: 1rem;
+  max-width: 60rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: 7rem;
+  border-radius: 3rem;
 
 }
 .home-desc img{
@@ -80,7 +84,7 @@ header nav a:hover{
 }
 .home-desc p{
   font-weight: bolder;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 
@@ -90,11 +94,16 @@ header nav a:hover{
   padding: 1.25rem;
   text-align: center;
 }
-
+.home-container-part2 h2{
+  text-align: center;
+  justify-content: left;
+  margin: 2rem auto;
+}
 .register-container h2,
 .home-container-part2 h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
+
 }
 
 .register-container form
@@ -116,6 +125,7 @@ header nav a:hover{
 
 .register-container input,
 .home-container-part2 input {
+  background-color: rgba(217, 217, 217, 0.851);
   width: 100%;
   padding: 1rem;
   margin-bottom: 1.25rem;
@@ -150,18 +160,22 @@ header nav a:hover{
   padding: 4rem 0;
   text-align: center;
   border: 1px solid #000;  
+
   margin-bottom: 5rem;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.274);
+
 }
 
 /* Connexion */
 .register-container, .Connexion {
   background-color: #fff;
   border-radius: 2rem;
-  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   max-width: 50rem;
   width: 100%;
   margin: 5rem auto;
+  border: 1px solid #000;
 }
 
 .register-container h2,
@@ -176,7 +190,7 @@ header nav a:hover{
 }
 
 .Connexion input {
-  background-color: #D9D9D9;
+  background-color: rgba(217, 217, 217, 0.851);
   width: 100%;
   padding: 1.5rem;
   margin-bottom: 2.1875rem;
@@ -186,7 +200,7 @@ header nav a:hover{
 }
 
 .register-container input {
-  background-color: #D9D9D9;
+  background-color: rgba(217, 217, 217, 0.851);
   width: 100%;
   padding: 1.5rem;
   box-sizing: border-box;
@@ -264,16 +278,15 @@ header nav a:hover{
 /* Style de la grille */
 .grid-container {
   background-color: rgba(64, 64, 64, 0.8);
-  max-width: 100rem;
+  max-width: 90rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
-  padding: 20px;
+  grid-gap: 1rem;
+  padding: 2rem 0rem 2rem 5rem;
   border-radius: 2rem; 
-  border: 1px solid #000;
   margin: 5rem auto;
-  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.274);
+ 
 }
 
 .grid-item {
@@ -288,11 +301,12 @@ header nav a:hover{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; 
+  width: 80%; 
   height:100%; 
   object-fit:unset;
-  border-radius : 3.5rem;
+  border-radius : 3rem;
   border: #000 1px solid;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.274);
 
 }
 
