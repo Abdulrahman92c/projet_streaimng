@@ -30,7 +30,7 @@ header h1 a {
 header h1 a img {
   height: 5.1rem;
   margin-right: 1.625rem;
-  
+
 }
 
 header nav ul {
@@ -49,14 +49,16 @@ header nav a {
   text-decoration: none;
   margin-right: 2.5rem;
 }
-header nav a:hover{
+
+header nav a:hover {
   color: #000;
   font-size: 1.5rem;
   transition: 1s;
 }
+
 /* Home Container */
 .home-container {
-  background:url(../asset/image_bg.jpg) no-repeat center center / cover;
+  background: url(../asset/image_bg.jpg) no-repeat center center / cover;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -64,12 +66,12 @@ header nav a:hover{
 
 }
 
-.home-desc{
+.home-desc {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.668); 
+  background-color: rgba(255, 255, 255, 0.668);
   padding: 1rem;
   max-width: 60rem;
   display: flex;
@@ -78,27 +80,32 @@ header nav a:hover{
   border-radius: 3rem;
 
 }
-.home-desc img{
+
+.home-desc img {
   width: 50%;
   height: 50%;
 }
-.home-desc p{
+
+.home-desc p {
   font-weight: bolder;
   font-size: 2rem;
 }
 
 
 /* Home Container Part 2 and register-container*/
-.register-container, .home-container-part2 {
+.register-container,
+.home-container-part2 {
   background-color: var(--background-color);
   padding: 1.25rem;
   text-align: center;
 }
-.home-container-part2 h2{
+
+.home-container-part2 h2 {
   text-align: center;
   justify-content: left;
   margin: 2rem auto;
 }
+
 .register-container h2,
 .home-container-part2 h2 {
   font-size: 3rem;
@@ -106,14 +113,14 @@ header nav a:hover{
 
 }
 
-.register-container form
-{
+.register-container form {
   display: flex;
   flex-direction: column;
   align-items: baseline;
   max-width: 50rem;
   margin: 0 auto;
 }
+
 .home-container-part2 form {
   display: flex;
   flex-direction: row;
@@ -148,7 +155,7 @@ header nav a:hover{
 .home-container-part2 button:hover {
   background-color: var(--button-hover-color);
   color: #000;
-  transition: 0.5s;  
+  transition: 0.5s;
 
 }
 
@@ -159,7 +166,7 @@ header nav a:hover{
   margin: 0 auto;
   padding: 4rem 0;
   text-align: center;
-  border: 1px solid #000;  
+  border: 1px solid #000;
 
   margin-bottom: 5rem;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.274);
@@ -167,7 +174,8 @@ header nav a:hover{
 }
 
 /* Connexion */
-.register-container, .Connexion {
+.register-container,
+.Connexion {
   background-color: #fff;
   border-radius: 2rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
@@ -180,7 +188,7 @@ header nav a:hover{
 
 .register-container h2,
 .Connexion h2 {
- margin: 2rem 0 3rem 0;
+  margin: 2rem 0 3rem 0;
   text-align: center;
 }
 
@@ -218,6 +226,7 @@ header nav a:hover{
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   margin: 1rem auto;
 }
+
 .Connexion button {
   background-color: var(--button-color);
   color: var(--text-color);
@@ -233,8 +242,9 @@ header nav a:hover{
 .Connexion button:hover {
   background-color: var(--button-hover-color);
   color: #000;
-  transition: 0.5s;  
+  transition: 0.5s;
 }
+
 /*page film */
 .all_films_desc {
   display: flex;
@@ -242,34 +252,39 @@ header nav a:hover{
   justify-content: left;
   margin: 5rem auto;
 }
-.all_films_desc p{
+
+.all_films_desc p {
   text-align: justify;
   max-width: 30%;
   font-size: 2.5rem;
   font-weight: bolder;
 
 }
-.all_films_desc img{
-  width: 25%; 
-  border: 1.5px solid ;
-  border-radius: 3rem ;
-  margin-right: 5rem ;
+
+.all_films_desc img {
+  width: 25%;
+  border: 1.5px solid;
+  border-radius: 3rem;
+  margin-right: 5rem;
   margin-left: 15rem;
 }
-.device_desc{
+
+.device_desc {
   display: flex;
   align-items: center;
   justify-content: right;
   margin-left: 0;
 }
-.device_desc p{
+
+.device_desc p {
   text-align: left;
   font-size: 2.5rem;
   font-weight: bolder;
   max-width: 30%;
   margin-right: 5rem;
 }
-.device_desc img  {
+
+.device_desc img {
   width: 30%;
   margin-right: 15rem;
 
@@ -283,10 +298,10 @@ header nav a:hover{
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   padding: 2rem 0rem 2rem 5rem;
-  border-radius: 2rem; 
+  border-radius: 2rem;
   margin: 5rem auto;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.274);
- 
+
 }
 
 .grid-item {
@@ -301,10 +316,10 @@ header nav a:hover{
   position: absolute;
   top: 0;
   left: 0;
-  width: 80%; 
-  height:100%; 
-  object-fit:unset;
-  border-radius : 3rem;
+  width: 80%;
+  height: 100%;
+  object-fit: unset;
+  border-radius: 3rem;
   border: #000 1px solid;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.274);
 
@@ -312,7 +327,7 @@ header nav a:hover{
 
 
 /* footer*/
-footer{
+footer {
   text-align: center;
   position: absolute;
   bottom: 0;
