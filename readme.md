@@ -16,5 +16,4 @@ Ce projet contient une page d'accueil, une page de connexion, d'inscription, ain
 [Cliquez pour avoir le rendu complet de ce projet](https://abdulrahman92c.github.io/projet_streaming/)
 
 # Auteur
-
 &copy; Abdulrahman Chahdi - 2024 - Bachelor CDA - ITIC Paris 
