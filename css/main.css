@@ -324,7 +324,45 @@ header nav a:hover {
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.274);
 
 }
+/* dark mode */
+.dark-mode {
+  --primary-color: #1a1a1a; 
+  --background-color: #252525;
+  --button-color: #1a1a1a; 
+  --button-hover-color: #404040; 
+  --text-color: #fff;
+}
+.dark-mode #toggle-dark-mode{
+  filter: invert(100%);
+}
+.dark-mode p,.dark-mode h2{
+  color: #fff;
+}
+.dark-mode .home-desc{
+  background-color: #000000d7;
+}
+.dark-mode .Connexion h2{
+  color: #000;
+}
+.dark-mode .register-container h2{
+  color: #000;
+}
 
+
+/* button darkmode */
+#toggle-dark-mode {
+  width: 40px; 
+  height: auto; 
+  cursor: pointer; 
+  transition: filter 0.3s ease; 
+  margin-right: 50rem;
+}
+
+#toggle-dark-mode:hover {
+  filter: brightness(80%);
+  width: 50px;
+  transition: 1s;
+}
 
 /* footer*/
 footer {
